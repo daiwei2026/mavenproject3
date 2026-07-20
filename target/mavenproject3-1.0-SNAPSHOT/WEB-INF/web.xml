@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>View</servlet-name>
+        <servlet-class>servlet.View</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Detail</servlet-name>
+        <servlet-class>servlet.Detail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>View</servlet-name>
+        <url-pattern>/View</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Create</servlet-name>
+        <servlet-class>servlet.Create</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Create</servlet-name>
+        <url-pattern>/Create</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DoCreate</servlet-name>
+        <servlet-class>servlet.DoCreate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoCreate</servlet-name>
+        <url-pattern>/DoCreate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Detail</servlet-name>
+        <url-pattern>/Detail</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

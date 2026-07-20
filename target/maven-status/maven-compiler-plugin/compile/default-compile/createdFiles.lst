@@ -1,0 +1,8 @@
+bean/Goods.class
+servlet/Detail.class
+servlet/Create.class
+com/mycompany/mavenproject3/resources/JakartaEE11Resource.class
+servlet/View.class
+servlet/DoCreate.class
+bean/Category.class
+com/mycompany/mavenproject3/JakartaRestConfiguration.class

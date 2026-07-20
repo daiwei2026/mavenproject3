@@ -1,0 +1,91 @@
+#left
+{
+	width: 30%;
+	float: left;
+}
+
+#right
+{
+	width: 70%;
+	float: left;
+}
+
+#left a
+{
+  float: left;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #999999;
+}
+
+#left a:hover
+{
+  background-color: #bbbbbb;
+}
+
+#right a.link
+{
+  float: left;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #999999;
+}
+
+#right a:hover
+{
+  background-color: #bbbbbb;
+}
+
+a.show
+{
+  display: block;
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+}
+
+span.goods
+{
+  position: absolute;
+  width: 40%;
+  height: 40px;
+  left: 0px;
+  bottom: 0px;
+}
+
+span.price
+{
+  position: absolute;
+  width: 30%;
+  height: 40px;
+  bottom: 0px;
+  left: 40%;
+  text-align: center;
+}
+
+span.store
+{
+  position: absolute;
+  width: 30%;
+  height: 40px;
+  bottom: 0px;
+  right: 0px;
+  text-align: right;
+}
+
+#nav
+{
+  width: 100%;
+  float: left;
+}
