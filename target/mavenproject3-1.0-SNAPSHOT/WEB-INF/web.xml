@@ -4,13 +4,17 @@
         <servlet-name>View</servlet-name>
         <servlet-class>servlet.View</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>View</servlet-name>
+        <url-pattern>/View</url-pattern>
+    </servlet-mapping>
     <servlet>
         <servlet-name>Detail</servlet-name>
         <servlet-class>servlet.Detail</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>View</servlet-name>
-        <url-pattern>/View</url-pattern>
+        <servlet-name>Detail</servlet-name>
+        <url-pattern>/Detail</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>Create</servlet-name>
@@ -28,9 +32,21 @@
         <servlet-name>DoCreate</servlet-name>
         <url-pattern>/DoCreate</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Modify</servlet-name>
+        <servlet-class>servlet.Modify</servlet-class>
+    </servlet>
     <servlet-mapping>
-        <servlet-name>Detail</servlet-name>
-        <url-pattern>/Detail</url-pattern>
+        <servlet-name>Modify</servlet-name>
+        <url-pattern>/Modify</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DoModify</servlet-name>
+        <servlet-class>servlet.DoModify</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoModify</servlet-name>
+        <url-pattern>/DoModify</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
